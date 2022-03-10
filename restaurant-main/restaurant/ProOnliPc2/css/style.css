@@ -7,6 +7,14 @@ body {
     font-weight: 400;
     overflow-x: hidden; 
 }
+
+
+:root{
+    --color-principal: #59c526;
+    --color-barras: rgb(133, 91, 36);
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -34,7 +42,7 @@ table {
 #banner h2{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
-    color: #FFB03B;
+    color: var(--color-principal);
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -48,7 +56,7 @@ table {
     font-family: 'Satisfy', sans-serif;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: var(--color-principal);
 }
 .sidenav {
     height: 100%;
@@ -93,7 +101,7 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: var(--color-principal);
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -122,13 +130,13 @@ table {
     margin-top: 18px;
 }
 .bg-1 {
-    background-color: #fecc17;
+    background-color: var(--color-principal);
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 .bg-14 {
-    background-color: #ccdb38;
+    background-color: rgb(195, 219, 56);
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -191,7 +199,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  var(--color-principal) !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -246,7 +254,7 @@ table {
 
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: var(--color-principal);
     font-size: 24px;
 }
 .marb-35{
@@ -257,11 +265,11 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: var(--color-principal);
 }
 #about img
 {
-    border: 5px solid rgb(255, 176, 59);
+    border:5px solid var(--color-barras);
     border-radius: 2px;
 }
 #event{
@@ -280,18 +288,18 @@ table {
 }
 .details-text {
     background-color: rgba(14, 4, 4, 0.70);
-    border-right: 2px solid #A87F41;
+    border-right: 2px solid var(--color-barras);
     padding: 20px 20px 30px 30px;
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: var(--color-principal);
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: var(--color-principal);
     padding: 10px 0px;
 }
 .details-text p {
@@ -301,7 +309,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: var(--color-principal);
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -331,7 +339,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: var(--color-principal);
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -358,9 +366,9 @@ table {
     display: block;
 }
 .gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
-    background: #FFB03B;
+    background: var(--color-principal);
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid var(--color-principal);
 }
 .gallery-trigger ul li {
     display: inline-block;
@@ -402,7 +410,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: var(--color-principal);
 }
 .footer .widget, .footer address {
     color: #999;
